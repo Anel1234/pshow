@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+  
+    "name": "pshow",
+    "description": "pshow quotes",
+    "version": "1.0",
+
+    "web_accessible_resources": [
+      "index.html",
+      "pshow.js",
+      "main.css",
+      "pshownew.json"
+    ],
+    "permissions": [
+      "contextMenus",
+      "tabs",
+      "http://*/*",
+      "https://*/*",
+      "<all_urls>"
+    ],
+    "background": {
+      "scripts": []
+    },
+    "browser_action": {
+      "default_popup": "index.html"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+  }

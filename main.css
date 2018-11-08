@@ -1,0 +1,19 @@
+body{
+    width:700px;
+}
+
+div{
+    color:azure;
+}
+
+div:hover{
+    color:pink;
+}
+
+.buttons {
+    text-align:center;
+}
+
+.episode {
+    text-align: right;
+}
