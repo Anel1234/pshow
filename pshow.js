@@ -23,5 +23,9 @@ function WordViewModel(Quotes) {
         self.episode(Quotes[Math.floor(Math.random()*Quotes.length)].Episode);
     }
 
+    noClick = function() {
+        window.close();
+    }
+
     WordClick();
 }

@@ -11,13 +11,17 @@
       "main.css",
       "pshownew.json"
     ],
+    "icons": { "16": "pshowLogo16.png",
+      "48": "pshowLogo48.png",
+     "128": "pshowLogo128.png"
+    },
     "permissions": [
       "contextMenus",
       "tabs",
       "http://*/*",
       "https://*/*",
       "<all_urls>"
-    ],
+    ], 
     "background": {
       "scripts": []
     },
